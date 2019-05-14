@@ -126,6 +126,15 @@
 
   ([PR #1330](https://github.com/alphagov/govuk-frontend/pull/1330))
 
+- Removes `govuk-grid-row` mixin
+
+  https://github.com/alphagov/govuk-frontend/pull/1090 copied govuk-grid-row
+  mixin to create a new concrete `.govuk-grid-row` class and marked the mixin as deprecated.
+
+  **ACTION TO BE TAKEN**: Remove any references to `govuk-grid-row` mixin and use `.govuk-grid-row` class.
+
+  ([PR #1343](https://github.com/alphagov/govuk-frontend/pull/1343))
+
 - Pull Request Title goes here
 
   Description goes here (optional)
